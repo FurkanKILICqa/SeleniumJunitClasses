@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_08_testbase_alert_iframe/C01_TestBaseClassWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_08_testbase_alert_iframe/C02_Alert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C04_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C04_Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,55 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C04_Homework">
+  <component name="RunManager" selected="JUnit.C02_Alert.dissmissAlert">
+    <configuration name="C01_TestBaseClassWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_08_testbase_alert_iframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_08_testbase_alert_iframe" />
+      <option name="MAIN_CLASS_NAME" value="day_08_testbase_alert_iframe.C01_TestBaseClassWork" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Alert.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_08_testbase_alert_iframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_08_testbase_alert_iframe" />
+      <option name="MAIN_CLASS_NAME" value="day_08_testbase_alert_iframe.C02_Alert" />
+      <option name="METHOD_NAME" value="acceptAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Alert.dissmissAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_08_testbase_alert_iframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_08_testbase_alert_iframe" />
+      <option name="MAIN_CLASS_NAME" value="day_08_testbase_alert_iframe.C02_Alert" />
+      <option name="METHOD_NAME" value="dissmissAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C04_Homework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -56,38 +108,6 @@
       <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
       <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Homework.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07_assertion_dropdown_testbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Homework.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07_assertion_dropdown_testbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,28 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07_assertion_dropdown_testbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.Deneme" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_Alert.dissmissAlert" />
+        <item itemvalue="JUnit.C02_Alert.acceptAlert" />
+        <item itemvalue="JUnit.C01_TestBaseClassWork.test01" />
         <item itemvalue="JUnit.C04_Homework" />
         <item itemvalue="JUnit.C04_Homework.test03" />
-        <item itemvalue="JUnit.Deneme" />
-        <item itemvalue="JUnit.C04_Homework.test02" />
-        <item itemvalue="JUnit.C04_Homework.test01" />
       </list>
     </recent_temporary>
   </component>
