@@ -2,7 +2,7 @@ package day06_junit;
 
 import org.junit.*;
 
-public class BeforeAfter {
+public class C02_BeforeAfter {
 
     @BeforeClass
     public static void beforeClass() throws Exception {
