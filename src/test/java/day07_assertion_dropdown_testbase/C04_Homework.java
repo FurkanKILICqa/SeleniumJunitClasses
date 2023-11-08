@@ -16,8 +16,6 @@ public class C04_Homework {
     protected WebDriver driver;
 
 
-    //- Genişliği 225 ve Uzunluğu 225 olan resimlerin hepsine tıklayalım
-
     @Before
     public void setUp() throws Exception {
         driver = new ChromeDriver();
@@ -29,7 +27,7 @@ public class C04_Homework {
 
     @Test
     public void test03() throws InterruptedException {
-        //- electronics bölümüne tıklayınız
+        //- Electronics bölümüne tıklayınız
         driver.findElement(By.xpath("(//a[@_sp='p2481888.m1379.l3250'])[1]")).click();
 
 

@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C05_Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_junit/C01_JunitIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_junit/C01_JunitIlkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_junit/C02_BeforeAfter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_junit/C02_BeforeAfter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_junit/C03_ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_junit/C03_ClassWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_junit/C04_CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_junit/C04_CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06_junit/C05_RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06_junit/C05_RadioButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C01_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C01_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C02_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C02_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C03_DropdownManu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C03_DropdownManu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C04_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/C04_Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/Deneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertion_dropdown_testbase/Deneme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +44,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C05_Homework">
-    <configuration name="C05_Homework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_Homework">
+    <configuration name="C04_Homework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +54,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C05_Homework" />
+      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Homework.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_Homework.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +69,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C05_Homework" />
+      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Homework.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_Homework.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C05_Homework" />
+      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Homework.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_Homework.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +101,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day07_assertion_dropdown_testbase" />
-      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C05_Homework" />
+      <option name="MAIN_CLASS_NAME" value="day07_assertion_dropdown_testbase.C04_Homework" />
       <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -140,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C05_Homework" />
-        <item itemvalue="JUnit.C05_Homework.test03" />
+        <item itemvalue="JUnit.C04_Homework" />
+        <item itemvalue="JUnit.C04_Homework.test03" />
         <item itemvalue="JUnit.Deneme" />
-        <item itemvalue="JUnit.C05_Homework.test02" />
-        <item itemvalue="JUnit.C05_Homework.test01" />
+        <item itemvalue="JUnit.C04_Homework.test02" />
+        <item itemvalue="JUnit.C04_Homework.test01" />
       </list>
     </recent_temporary>
   </component>
