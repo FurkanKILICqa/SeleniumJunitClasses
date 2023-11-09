@@ -181,5 +181,11 @@ public class C03_WindowHandle extends TestBase {
         window(0);
 
     }
+
+    @Test
+    public void name() {
+
+        driver.get("https://the-internet.herokuapp.com/basic_auth");
+    }
 }
 
