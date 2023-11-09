@@ -48,6 +48,19 @@ public abstract class TestBase {
         }
     }
 
+    //window handle
+    public void window(int index){
+        driver.switchTo().window(driver.getWindowHandles().toArray()[index].toString());
+
+    }
+
+    //iframe handle
+    public void frameindex(int index){
+
+        driver.switchTo().frame(index);
+    }
+
+
 
     @After
     public void tearDown() throws Exception {
