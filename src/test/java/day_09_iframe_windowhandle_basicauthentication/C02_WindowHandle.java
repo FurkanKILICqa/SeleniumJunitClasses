@@ -10,6 +10,20 @@ import java.util.List;
 
 public class C02_WindowHandle extends TestBase {
 
+
+    /*
+        Eger bir sayfaya gittikten sonra yeni sekme yada yeni bir pencere acmak istersek bunun icin driver.switchTo().newWindow() methodunu kullanmaliyiz
+        bu method parantez icinde yeni acilacak olan sayfanin bir sekmemi yoksa yeni bir penceremi oldugunu asagidaki kodlar ile yapabilirz
+
+        1-driver.switchTo().newWindow(WindowType.WINDOW) yeni bir penecere acar ve buraya gecis yapar
+        2-driver.switchTo().newWindow(WindowType.TAB) yeni bir sekme acar ve buraya gecis yapar
+
+        eger window handle degeri ile bir sayfaya gecis yapmak istersek bu defada driver.switchTo().window() methodunu kullaniriz
+        ve gecis yapmak istedigimiz sayfanin window handle degerini belirtmemiz gerekir
+
+     */
+
+
     //Window 1'de https://www.techproeducation.com adresine gidiniz
     //Başlığın "TechPro Education" olduğunu doğrulayın
     //Window 2'de (yeni bir pencerede) https://www.youtube.com sayfasını açınız:
