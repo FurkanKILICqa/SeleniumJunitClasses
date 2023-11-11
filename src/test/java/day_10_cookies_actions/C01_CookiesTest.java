@@ -11,13 +11,12 @@ import java.util.Set;
 public class C01_CookiesTest extends TestBase {
 
     /*
-
+     Cookies denildiginde aklimiza ilk gelmesi gereken manage methodudur.
+    manage() methodu sayesinde cookieler ile ilgili tum islemler yapilir
 
      */
 
 
-
-    //8-tum cookie'leri silin ve silindigini test edin
 
 
     @Test
@@ -95,6 +94,13 @@ public class C01_CookiesTest extends TestBase {
 
         Assert.assertFalse(cookiesSet.contains(driver.manage().getCookieNamed("skin")));
 
+        //8-tum cookie'leri silin ve silindigini test edin
+
+        driver.manage().deleteAllCookies();
+
+        cookiesSet = driver.manage().getCookies();//cookies seti güncelledik
+
+        Assert.assertTrue(cookiesSet.isEmpty());
 
 
 
