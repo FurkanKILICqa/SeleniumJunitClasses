@@ -52,7 +52,7 @@ public class C01_CookiesTest extends TestBase {
 
 
 
-        //4-ismi i18n-prefs olan cookie degerinin USD oldugunu test edin
+        //4-ismi i18n-prefs olan cookie degerinin USD olmadığını test edin
       String actualcookieValue = driver.manage().getCookieNamed("i18n-prefs").getValue();
       String acceptedcookieValue = "USD";
 
@@ -95,7 +95,6 @@ public class C01_CookiesTest extends TestBase {
         Assert.assertFalse(cookiesSet.contains(driver.manage().getCookieNamed("skin")));
 
         //8-tum cookie'leri silin ve silindigini test edin
-
         driver.manage().deleteAllCookies();
 
         cookiesSet = driver.manage().getCookies();//cookies seti güncelledik
