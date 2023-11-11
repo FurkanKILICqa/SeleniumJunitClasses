@@ -50,11 +50,5 @@ public class PazarProjesi extends TestBase {
        logIn.click();
 
 
-
-
-
-
-
-
     }
 }
