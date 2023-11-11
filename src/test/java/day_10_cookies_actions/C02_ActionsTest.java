@@ -38,11 +38,12 @@ public class C02_ActionsTest extends TestBase {
         //Alert'te cikan yazinin"You selected a context menu"oldugunu test edin
         String acpetedResult = "You selected a context manu";
         String actualResult = driver.switchTo().alert().getText();
-
+        Assert.assertEquals("Actual Result ile Expected Result uyumlu degil",acpetedResult,actualResult);
 
 
 
         //Tamam diyerek alert'i kapatın
+        driver.switchTo().alert().accept();
 
 
 
