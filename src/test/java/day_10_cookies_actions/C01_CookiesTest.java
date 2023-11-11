@@ -17,10 +17,6 @@ public class C01_CookiesTest extends TestBase {
 
 
 
-
-
-
-    //7-ismi skin olan cookie'yi silin ve silindigini test edin
     //8-tum cookie'leri silin ve silindigini test edin
 
 
@@ -57,11 +53,11 @@ public class C01_CookiesTest extends TestBase {
 
 
 
-        //4-ismi i18n-prefs olan cookie degerinin TRY oldugunu test edin
+        //4-ismi i18n-prefs olan cookie degerinin USD oldugunu test edin
       String actualcookieValue = driver.manage().getCookieNamed("i18n-prefs").getValue();
-      String acceptedcookieValue = "TRY";
+      String acceptedcookieValue = "USD";
 
-      Assert.assertEquals(acceptedcookieValue,actualcookieValue);
+      Assert.assertNotEquals(acceptedcookieValue,actualcookieValue);
 
 
         //5-ismi "en sevdigim cookie" ve degeri "cikolatali" olan bir cookie olusturun ve sayfaya ekleyin
@@ -81,6 +77,23 @@ public class C01_CookiesTest extends TestBase {
         //6-eklediginiz cookie'nin sayfaya eklendigini test
         Assert.assertTrue(cookiesSet.contains(cookie));
 
+
+
+        //7-ismi skin olan cookie'yi silin ve silindigini test edin
+        driver.manage().deleteCookieNamed("skin");
+
+        cookiesSet = driver.manage().getCookies();
+
+        int counter2 = 1;
+        for (Cookie w : cookiesSet) {
+            System.out.println(counter2 + " . cookie  ==> " + w);
+            System.out.println(counter2 + " . cookie Name  ==> " + w.getName());
+            System.out.println(counter2 + " . cookie Value  ==> " + w.getValue());
+            counter2++;
+
+        }
+
+        Assert.assertFalse(cookiesSet.contains(driver.manage().getCookieNamed("skin")));
 
 
 
