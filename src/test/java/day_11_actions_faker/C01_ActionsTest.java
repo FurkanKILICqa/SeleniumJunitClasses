@@ -18,7 +18,7 @@ public class C01_ActionsTest extends TestBase {
     @Test
     public void test01() {
 
-        //Amazon a gidelim https://www.amazon.com/
+
         driver.get("https://www.amazon.com/");
 
 
@@ -38,13 +38,16 @@ public class C01_ActionsTest extends TestBase {
         String actualData=driver.getTitle();
         Assert.assertEquals("Actual data ile Expected Data uyumlu degil",expectedData,actualData);
 
-
-
-
-
-
-
     }
+
+
+
+
+
+
+
+
+
 
 
 
