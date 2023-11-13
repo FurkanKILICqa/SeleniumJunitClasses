@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C03_ActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C04_ActionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C01_ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C01_ActionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C02_ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_11_actions_faker/C02_ActionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_ActionsTest.test03">
-    <configuration name="C01_ActionsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_ActionsTest.test02">
+    <configuration name="C03_ActionsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +57,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C01_ActionsTest" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C03_ActionsTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ActionsTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ActionsTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -72,46 +73,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C02_ActionsTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ActionsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_10_cookies_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_10_cookies_actions" />
-      <option name="MAIN_CLASS_NAME" value="day_10_cookies_actions.C02_ActionsTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_ActionsTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_11_actions_faker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C02_ActionsTest" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C03_ActionsTest" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ActionsTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ActionsTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +89,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C02_ActionsTest" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C03_ActionsTest" />
       <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_ActionsTest.tes01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_11_actions_faker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_11_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C04_ActionsTest" />
+      <option name="METHOD_NAME" value="tes01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_ActionsTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_11_actions_faker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_11_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C04_ActionsTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_ActionsTest.test03" />
-        <item itemvalue="JUnit.C02_ActionsTest.test02" />
-        <item itemvalue="JUnit.C02_ActionsTest.test01 (1)" />
-        <item itemvalue="JUnit.C01_ActionsTest.test01" />
-        <item itemvalue="JUnit.C02_ActionsTest.test01" />
+        <item itemvalue="JUnit.C04_ActionsTest.test02" />
+        <item itemvalue="JUnit.C04_ActionsTest.tes01" />
+        <item itemvalue="JUnit.C03_ActionsTest.test03" />
+        <item itemvalue="JUnit.C03_ActionsTest.test02" />
+        <item itemvalue="JUnit.C03_ActionsTest.test01" />
       </list>
     </recent_temporary>
   </component>
