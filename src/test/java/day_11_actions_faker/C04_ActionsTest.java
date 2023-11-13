@@ -38,7 +38,7 @@ public class C04_ActionsTest extends TestBase {
         aramaKutusu.sendKeys(Keys.SHIFT,"selenium",Keys.SHIFT," - java",Keys.ENTER);
 
         WebElement resultLink = driver.findElement(By.cssSelector("h3"));
-        aramaKutusu.sendKeys(Keys.chord(Keys.CONTROL,"x"));
+        resultLink.sendKeys(Keys.chord(Keys.CONTROL,"x"));
     }
 
        /*
