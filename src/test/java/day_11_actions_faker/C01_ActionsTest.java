@@ -33,10 +33,13 @@ public class C01_ActionsTest extends TestBase {
         driver.findElement(By.xpath("//span[.='Account']")).click();
 
 
-        //Acilan sayfanin Title in "Your Account" icerdigini dogrula
+        //Acilan sayfanin Title in "Your Account" olduğunu dogrula
         String expectedData ="Your Account";
         String actualData=driver.getTitle();
         Assert.assertEquals("Actual data ile Expected Data uyumlu degil",expectedData,actualData);
+
+
+
 
 
 
