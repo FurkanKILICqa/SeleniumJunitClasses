@@ -14,10 +14,10 @@ public class C03UploadFile extends TestBase {
 
     @Test
     public void test01() {
+
+        //https://the-internet.herokuapp.com/upload adresine gidelim
         driver.get("https://the-internet.herokuapp.com/upload");
 
-
-        //"C:\Users\hpvic\Downloads\b10 all test cases, code.docx"
         //chooseFile butonuna basalim
        WebElement coosFile = driver.findElement(By.id("file-upload"));
 
@@ -32,8 +32,7 @@ public class C03UploadFile extends TestBase {
         //Upload butonuna basalim.
         driver.findElement(By.id("file-submit")).click();
 
-
-
+        //"File Uploaded!" textinin goruntulendigini test edelim.
        String ActualTest = driver.findElement(By.xpath("//h3")).getText();
 
        Assert.assertEquals("File Uploaded!",ActualTest);

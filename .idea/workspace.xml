@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C01_ExplicitWait_WebDriverWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C01_FileExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C01_FileExists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C03UploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C03UploadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +47,33 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03UploadFile.test01">
-    <configuration name="C01_FileExists.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_ExplicitWait_WebDriverWait.test01">
+    <configuration name="C01_ExplicitWait_WebDriverWait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_12_files_seleniumWait.*" />
+          <option name="PATTERN" value="day_13_seleniumwaits_expections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_12_files_seleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="day_12_files_seleniumWait.C01_FileExists" />
+      <option name="PACKAGE_NAME" value="day_13_seleniumwaits_expections" />
+      <option name="MAIN_CLASS_NAME" value="day_13_seleniumwaits_expections.C01_ExplicitWait_WebDriverWait" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ActionsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_11_actions_faker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_11_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C02_ActionsTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -79,22 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_FileDownload.downloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_12_files_seleniumWait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_12_files_seleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="day_12_files_seleniumWait.C02_FileDownload" />
-      <option name="METHOD_NAME" value="downloadTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C03UploadFile.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -111,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Faker.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C06_FakerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C05_Faker" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C06_FakerTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_ExplicitWait_WebDriverWait.test01" />
+        <item itemvalue="JUnit.C06_FakerTest.test" />
+        <item itemvalue="JUnit.C02_ActionsTest.test01" />
         <item itemvalue="JUnit.C03UploadFile.test01" />
         <item itemvalue="JUnit.C02_FileDownload.downloadDynamicTest" />
-        <item itemvalue="JUnit.C02_FileDownload.downloadTest" />
-        <item itemvalue="JUnit.C01_FileExists.test01" />
-        <item itemvalue="JUnit.C05_Faker.test02" />
       </list>
     </recent_temporary>
   </component>
