@@ -64,8 +64,5 @@ public class C04_TimeOutExpection extends TestBase {
                 until(ExpectedConditions.visibilityOfElementLocated(By.id("YANLIS LOCATE")));
         Assert.assertEquals("Hello World!", helloWorld.getText());
 
-
-
-
     }
 }
