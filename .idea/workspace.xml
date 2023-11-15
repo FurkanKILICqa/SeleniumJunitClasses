@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C01_ExplicitWait_WebDriverWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C02_ExplicitWait_FluentWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C01_FileExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C01_FileExists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C03UploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_12_files_seleniumWait/C03UploadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
