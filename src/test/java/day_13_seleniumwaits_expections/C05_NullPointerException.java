@@ -18,7 +18,7 @@ Faker faker;
 
         faker = new Faker();
 
-        System.out.println("faker.name().fullName() = " + faker.name().fullName());
+        System.out.println("Fake Full Name = " + faker.name().fullName());
 
 
     }

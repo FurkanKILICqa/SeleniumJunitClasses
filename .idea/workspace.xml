@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C05_NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_14_exception_screenshot/C01_StaleElementReferenceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C04_TimeOutExpection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C04_TimeOutExpection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C05_NullPointerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_13_seleniumwaits_expections/C05_NullPointerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_ExplicitWait_WebDriverWait.test01">
+  <component name="RunManager" selected="JUnit.C01_StaleElementReferenceException.test01">
     <configuration name="C01_ExplicitWait_WebDriverWait.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -63,48 +64,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ActionsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_StaleElementReferenceException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_11_actions_faker.*" />
+          <option name="PATTERN" value="day_14_exception_screenshot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_11_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day_11_actions_faker.C02_ActionsTest" />
+      <option name="PACKAGE_NAME" value="day_14_exception_screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day_14_exception_screenshot.C01_StaleElementReferenceException" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_FileDownload.downloadDynamicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ActionsTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_12_files_seleniumWait.*" />
+          <option name="PATTERN" value="day_10_cookies_actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_12_files_seleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="day_12_files_seleniumWait.C02_FileDownload" />
-      <option name="METHOD_NAME" value="downloadDynamicTest" />
+      <option name="PACKAGE_NAME" value="day_10_cookies_actions" />
+      <option name="MAIN_CLASS_NAME" value="day_10_cookies_actions.C02_ActionsTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03UploadFile.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_NullPointerException.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_12_files_seleniumWait.*" />
+          <option name="PATTERN" value="day_13_seleniumwaits_expections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_12_files_seleniumWait" />
-      <option name="MAIN_CLASS_NAME" value="day_12_files_seleniumWait.C03UploadFile" />
+      <option name="PACKAGE_NAME" value="day_13_seleniumwaits_expections" />
+      <option name="MAIN_CLASS_NAME" value="day_13_seleniumwaits_expections.C05_NullPointerException" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_StaleElementReferenceException.test01" />
+        <item itemvalue="JUnit.C05_NullPointerException.test01" />
+        <item itemvalue="JUnit.C02_ActionsTest.test01 (1)" />
         <item itemvalue="JUnit.C01_ExplicitWait_WebDriverWait.test01" />
         <item itemvalue="JUnit.C06_FakerTest.test" />
-        <item itemvalue="JUnit.C02_ActionsTest.test01" />
-        <item itemvalue="JUnit.C03UploadFile.test01" />
-        <item itemvalue="JUnit.C02_FileDownload.downloadDynamicTest" />
       </list>
     </recent_temporary>
   </component>
