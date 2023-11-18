@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C01_ScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C02_ScreenShotClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_205050screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_205303screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213036screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213134screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213206screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213344screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213620screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_213644screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_214453screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_214513screenShot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_214513webElementSS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/TechProEducation.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_215303webElementSS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_215707screenShot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/screenShots/18112023_215707webElementSS.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C02_ScreenShotClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C02_ScreenShotClassWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.C02_ScreenShotClassWork.test01">
+  <component name="RunManager" selected="JUnit.C02_ScreenShotClassWork.amazonSearchBox">
     <configuration name="C01_ScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -74,6 +63,22 @@
       <option name="PACKAGE_NAME" value="day_15_screenShots_extentdreport" />
       <option name="MAIN_CLASS_NAME" value="day_15_screenShots_extentdreport.C01_ScreenShot" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ScreenShotClassWork.amazonSearchBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_15_screenShots_extentdreport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_15_screenShots_extentdreport" />
+      <option name="MAIN_CLASS_NAME" value="day_15_screenShots_extentdreport.C02_ScreenShotClassWork" />
+      <option name="METHOD_NAME" value="amazonSearchBox" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,29 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ScreenShot.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_14_exception_screenshot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_14_exception_screenshot" />
-      <option name="MAIN_CLASS_NAME" value="day_14_exception_screenshot.C02_ScreenShot" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_ScreenShotClassWork.amazonSearchBox" />
         <item itemvalue="JUnit.C02_ScreenShotClassWork.test01" />
         <item itemvalue="JUnit.C01_ScreenShot.test01" />
         <item itemvalue="JUnit.C02_ScreenShot.test02" />
         <item itemvalue="JUnit.C02_ScreenShot.test03" />
-        <item itemvalue="JUnit.C02_ScreenShot.test04" />
       </list>
     </recent_temporary>
   </component>

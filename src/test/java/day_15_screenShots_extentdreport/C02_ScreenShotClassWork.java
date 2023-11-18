@@ -51,4 +51,24 @@ public class C02_ScreenShotClassWork extends TestBase {
 
 
     }
+
+    @Test
+    public void amazonSearchBox() {
+
+        //amazon sayfasına gidelim
+        driver.get("https://www.amazon.com.tr/");
+
+
+        //Ve sayfanın resmini alalım
+        screenShot();
+
+        //Arama kutusuna metin göndererek ekran goruntusun alalim
+        WebElement searchBox =driver.findElement(By.id("twotabsearchtextbox"));
+        searchBox.sendKeys("kitap");
+        acreenShotOfWebElement(searchBox);
+
+
+
+
+    }
 }
