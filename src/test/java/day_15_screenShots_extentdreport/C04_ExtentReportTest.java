@@ -3,12 +3,16 @@ package day_15_screenShots_extentdreport;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import utilities.TestBase;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class C04_ExtentReportTest {
+public class C04_ExtentReportTest extends TestBase {
 
     ExtentReports extentReports;//raporlamayi baslatir
 
@@ -54,6 +58,26 @@ public class C04_ExtentReportTest {
         //Bundan sonra extentTest objecti ile log rapara detayli islemleri ekleme islemleri yapacağız
 
 
+
+        //TechproEducation sayfasina gidelim
+        driver.get("https://techproeducation.com");
+        extentTest.info("Kullanici TechproEducation sayfasina gider");
+
+
+        //TechproEducation ana sayfada oldugunuzu dogrulayin
+        String expectedUrl="https://techproeducation.com/";
+        Assert.assertEquals(expectedUrl,driver.getCurrentUrl());
+        extentTest.info("Kullanici ana sayfada oldugunu dogrular");
+        extentTest.pass("Ana sayfa url testi basarili");
+
+
+        //Ana Sayfa sag üst kısımda sosyal medya iconlarinin goruntulendigini dogrulayin
+        WebElement icons = driver.findElement(By.xpath("//*[@class='toolbar-sl-share']"));
+        Assert.assertTrue(icons.isDisplayed());
+        extentTest.pass("Kullanici iconlarin goruntulendigini dogrular");
+
+
+        extentReports.flush();
 
 
 
