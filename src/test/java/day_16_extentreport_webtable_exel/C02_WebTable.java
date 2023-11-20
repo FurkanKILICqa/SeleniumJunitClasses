@@ -38,11 +38,31 @@ public class C02_WebTable extends TestBase {
         System.out.println(lastRow.getText());
         System.out.println("=======================\n==============================");
 
-
+        //1. Yol
        List<WebElement> fifthCollum = driver.findElements(By.xpath("//table[1]//td[5]"));
         for (WebElement w:fifthCollum) {
             System.out.println(w.getText());
 
         }
+
+        //2.Yol
+       // fifthCollum.forEach(t-> System.out.println(t.getText()));
+
+
+        printData(2,3);
+        printData(4,4);
+
+
+        System.out.println("=======================\n==============================");
     }
+
+
+    private void printData(int satir, int sütun) {
+
+      WebElement webElement =  driver.findElement(By.xpath("//table[1]//tbody//tr["+satir+"]//td["+sütun+"]"));
+        System.out.println(webElement.getText());
+
+    }
+
+
 }
