@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_16_extentreport_webtable_exel/C01_ExtentReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_16_extentreport_webtable_exel/C02_WebTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C04_ExtentReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_15_screenShots_extentdreport/C04_ExtentReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +50,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_ExtentReport.extentReportTemplate">
-    <configuration name="C01_ScreenShot.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_WebTable.webTableTest">
+    <configuration name="C01_ExtentReportTest.extentResuableFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_15_screenShots_extentdreport.*" />
+          <option name="PATTERN" value="day_16_extentreport_webtable_exel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_15_screenShots_extentdreport" />
-      <option name="MAIN_CLASS_NAME" value="day_15_screenShots_extentdreport.C01_ScreenShot" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="day_16_extentreport_webtable_exel" />
+      <option name="MAIN_CLASS_NAME" value="day_16_extentreport_webtable_exel.C01_ExtentReportTest" />
+      <option name="METHOD_NAME" value="extentResuableFormatTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,17 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ScreenShot.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_WebTable.webTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day_14_exception_screenshot.*" />
+          <option name="PATTERN" value="day_16_extentreport_webtable_exel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day_14_exception_screenshot" />
-      <option name="MAIN_CLASS_NAME" value="day_14_exception_screenshot.C02_ScreenShot" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="PACKAGE_NAME" value="day_16_extentreport_webtable_exel" />
+      <option name="MAIN_CLASS_NAME" value="day_16_extentreport_webtable_exel.C02_WebTable" />
+      <option name="METHOD_NAME" value="webTableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_WebTable.webTableTest" />
+        <item itemvalue="JUnit.C01_ExtentReportTest.extentResuableFormatTest" />
         <item itemvalue="JUnit.C03_ExtentReport.extentReportTemplate" />
         <item itemvalue="JUnit.C02_ScreenShotClassWork.amazonSearchBox" />
         <item itemvalue="JUnit.C02_ScreenShotClassWork.test01" />
-        <item itemvalue="JUnit.C01_ScreenShot.test01" />
-        <item itemvalue="JUnit.C02_ScreenShot.test02" />
       </list>
     </recent_temporary>
   </component>
