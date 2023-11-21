@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_17_excel/C03_ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/mysmoketestdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day_17_excel/C02_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_17_excel/C02_ReadExcel.java" afterDir="false" />
     </list>
@@ -53,23 +55,7 @@
       <recent name="C:\Users\hpvic\IdeaProjects\B189SeleniumJunitDT\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_ReadExcel.test01">
-    <configuration name="C01_ExtentReportTest.extentResuableFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_16_extentreport_webtable_exel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_16_extentreport_webtable_exel" />
-      <option name="MAIN_CLASS_NAME" value="day_16_extentreport_webtable_exel.C01_ExtentReportTest" />
-      <option name="METHOD_NAME" value="extentResuableFormatTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C03_ExcelTest.test01">
     <configuration name="C01_ReadExcel.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -134,13 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_ExcelTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_17_excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_17_excel" />
+      <option name="MAIN_CLASS_NAME" value="day_17_excel.C03_ExcelTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_ExcelTest.test01" />
         <item itemvalue="JUnit.C02_ReadExcel.test01" />
         <item itemvalue="JUnit.C01_ReadExcel.test02" />
         <item itemvalue="JUnit.C01_ReadExcel.test01" />
         <item itemvalue="JUnit.C02_WebTable.webTableTest" />
-        <item itemvalue="JUnit.C01_ExtentReportTest.extentResuableFormatTest" />
       </list>
     </recent_temporary>
   </component>
