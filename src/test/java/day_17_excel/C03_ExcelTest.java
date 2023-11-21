@@ -15,11 +15,6 @@ import java.io.IOException;
 public class C03_ExcelTest extends TestBase {
 
 
-
-
-
-
-
     @Test
     public void test01() throws IOException {
 
@@ -41,10 +36,11 @@ public class C03_ExcelTest extends TestBase {
 
         WebElement mail = driver.findElement(By.xpath("//*[@id='formBasicEmail']"));
         WebElement pass = driver.findElement(By.xpath("//*[@id='formBasicPassword']"));
+        WebElement loginBox = driver.findElement(By.xpath("//*[@class='btn btn-primary']"));
 
         mail.sendKeys(userMail);
         pass.sendKeys(userPass);
-        driver.findElement(By.xpath("//*[@class='btn btn-primary']")).click();
+        loginBox.click();
 
         //Login olduğumuzu doğrulayalım
         WebElement loginTest = driver.findElement(By.id("dropdown-basic-button"));
