@@ -7,6 +7,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.junit.Test;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class C05_WriteExcel {
@@ -36,10 +37,12 @@ public class C05_WriteExcel {
         sheet.getRow(10).createCell(3).setCellValue("raj");
         sheet.getRow(11).createCell(3).setCellValue("pam");
 
-        FileInputStream fos = new FileInputStream(path);
+        FileOutputStream fos = new FileOutputStream(path);
         workbook.write(fos);
         fos.close();
         fis.close();
+
+
 
 
 
