@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C01_JsExecutorClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C02_IsExecutorScroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C03_JsExecutorSetAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C04_JsExecutorLocate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_17_excel/C05_WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_17_excel/C05_WriteExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/mysmoketestdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/mysmoketestdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C04_JsExecutorLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_18_jsexecutor_log4j/C04_JsExecutorLocate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
