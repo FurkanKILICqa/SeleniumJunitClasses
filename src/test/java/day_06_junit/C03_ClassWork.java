@@ -1,4 +1,4 @@
-package day06_junit;
+package day_06_junit;
 
 import org.junit.After;
 import org.junit.Before;

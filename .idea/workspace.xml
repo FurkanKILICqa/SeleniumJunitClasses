@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C02_Log4j.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C01_JsExecuterStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C01_JsExecuterStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C02_Log4j.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C02_Log4j.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,4 @@
-package day07_assertion_dropdown_testbase;
+package day_07_assertion_dropdown_testbase;
 
 import org.junit.After;
 import org.junit.Before;
