@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b4ed54-1351-453f-8f0a-f94aa426059c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C02_Log4j.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day_17_excel/C05_WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_17_excel/C05_WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C01_JsExecuterStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day_19_jsexecutor_log4j/C01_JsExecuterStyle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,39 @@
       <recent name="C:\Users\hpvic\IdeaProjects\B189SeleniumJunitDT\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_ExcelTest.test01">
+  <component name="RunManager" selected="JUnit.C02_Log4j.test01">
+    <configuration name="C01_JsExecuterStyle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_19_jsexecutor_log4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_19_jsexecutor_log4j" />
+      <option name="MAIN_CLASS_NAME" value="day_19_jsexecutor_log4j.C01_JsExecuterStyle" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Log4j.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B189SeleniumJunitDT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_19_jsexecutor_log4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_19_jsexecutor_log4j" />
+      <option name="MAIN_CLASS_NAME" value="day_19_jsexecutor_log4j.C02_Log4j" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_ExcelTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B189SeleniumJunitDT" />
       <extension name="coverage">
@@ -65,38 +101,6 @@
       <option name="PACKAGE_NAME" value="day_17_excel" />
       <option name="MAIN_CLASS_NAME" value="day_17_excel.C03_ExcelTest" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JsExecutorSetAttribute.setAttribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_18_jsexecutor_log4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_18_jsexecutor_log4j" />
-      <option name="MAIN_CLASS_NAME" value="day_18_jsexecutor_log4j.C03_JsExecutorSetAttribute" />
-      <option name="METHOD_NAME" value="setAttribute" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JsExecutorSetAttribute.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B189SeleniumJunitDT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_18_jsexecutor_log4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_18_jsexecutor_log4j" />
-      <option name="MAIN_CLASS_NAME" value="day_18_jsexecutor_log4j.C03_JsExecutorSetAttribute" />
-      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C03_ExcelTest.test01" />
+        <item itemvalue="JUnit.C02_Log4j.test01" />
+        <item itemvalue="JUnit.C01_JsExecuterStyle.test01" />
         <item itemvalue="JUnit.C04_JsExecutorLocate.amazonTest" />
         <item itemvalue="JUnit.C04_JsExecutorLocate.test01" />
-        <item itemvalue="JUnit.C03_JsExecutorSetAttribute.setAttribute" />
-        <item itemvalue="JUnit.C03_JsExecutorSetAttribute.test02" />
+        <item itemvalue="JUnit.C03_ExcelTest.test01" />
       </list>
     </recent_temporary>
   </component>
